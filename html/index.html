@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VK Designs - Digital Marketing</title>
+    <link rel="icon" href="/images/logo.png" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header id="main-header" class="flex justify-between items-center px-10 py-6">
+      <div class="flex items-center"><img onclick="reload()" src="/images/logo.png" alt="Logo" class="w-12 h-12" id="header-logo" /></div>
+      <div class="hamburger-menu" id="hamburger-icon">☰</div>
+      <nav class="flex text-2xl" id="main-nav">
+        <a href="#" class="hover:underline">Home</a>
+        <a href="#about" class="hover:underline">About Us</a>
+        <a href="#contact" class="hover:underline">Careers</a>
+      </nav>
+      <button class="bg-black text-white px-6 py-2 text-center rounded-full cen" id="contact-us">Contact Us</button>
+    </header>
+
+    <section class="relative h-[80vh] flex flex-col justify-center items-center text-center hero-bg" style="background-image: url('/images/office-bg.jpg')">
+      <h1 style="font-family: 'Raleway', sans-serif; font-size: 70px" class="font-bold">Digital Marketing</h1>
+      <p style="font-family: 'Inter', sans-serif; font-size: 24px" class="mt-2">Creative strategies that grow your brand <br />online</p>
+      <button class="mt-4 bg-gradient-to-r from-blue-400 to-purple-500 text-white px-6 py-2 rounded-full shadow-md">Get Started</button>
+    </section>
+
+    <section class="text-center px-4 py-12">
+      <h2 class="text-2xl text-blue-900 font-semibold">Welcome To Our Website</h2>
+      <p class="mt-4 max-w-3xl mx-auto">
+        VK Designs is your partner in digital growth. We specialize in creative digital marketing strategies that help brands stand out and succeed online. From SEO and social media to branding and web design, our team is dedicated to delivering
+        measurable results for your business.
+      </p>
+      <div id="welcome-more" class="max-w-3xl mx-auto mt-4 text-gray-700 expandable collapsed">
+        With a focus on innovation and user experience, we tailor our services to meet your unique needs. Whether you're a startup or an established business, VK Designs empowers you to reach your audience, boost engagement, and achieve your goals in
+        the digital world. Let us help you make a lasting impact online!
+      </div>
+      <button id="welcome-readmore" class="mt-6 px-5 py-2 border border-black-600 rounded-full text-blue-600 hover:bg-blue-50">Read More</button>
+    </section>
+
+    <section class="grid grid-cols-1 md:grid-cols-3">
+      <div class="bg-blue-800 text-white p-6 text-center square">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto mb-2 w-12 h-12 mt-4" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <h3 class="text-xl font-semibold mb-2" style="font-family: 'Raleway', sans-serif">Our History</h3>
+        <p style="font-family: 'Inter', sans-serif">At VK Designs, we are a creative digital agency dedicated to helping brands grow in the ever-evolving online space.</p>
+      </div>
+      <div class="bg-black text-white p-6 text-center square">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto mb-2 w-12 h-12 mt-4" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M1.5 12s3.75-7.5 10.5-7.5S22.5 12 22.5 12s-3.75 7.5-10.5 7.5S1.5 12 1.5 12z" />
+          <circle cx="12" cy="12" r="3" stroke="white" stroke-width="2" fill="none" />
+        </svg>
+        <h3 class="text-xl font-semibold mb-2" style="font-family: 'Raleway', sans-serif">Our Vision</h3>
+        <p style="font-family: 'Inter', sans-serif">&nbsp;From social media marketing and SEO to branding and web design, our team crafts customized strategies.</p>
+      </div>
+      <div class="bg-blue-800 text-white p-6 text-center square">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto mb-2 w-12 h-12 mt-4" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
+          <circle cx="12" cy="12" r="9" stroke="white" stroke-width="2" fill="none" />
+          <circle cx="12" cy="12" r="5" stroke="white" stroke-width="2" fill="none" />
+          <circle cx="12" cy="12" r="1" stroke="white" stroke-width="2" fill="white" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2m0 14v2m9-9h-2M5 12H3" />
+        </svg>
+        <h3 class="text-xl font-semibold mb-2" style="font-family: 'Raleway', sans-serif">Our Mission</h3>
+        <p style="font-family: 'Inter', sans-serif">To empower businesses with innovative, user-focused marketing solutions.</p>
+      </div>
+    </section>
+
+    <section id="about" class="flex flex-col md:flex-row items-stretch px-8 py-12 gap-6">
+      <div class="flex-1">
+        <h2 class="text-2xl font-bold mb-4 text-center">About Us</h2>
+        <p class="text-lg text-gray-700 text-left">
+          At VK Designs, we are passionate about helping businesses thrive in the digital world. Our team of creative strategists, designers, and marketers brings together years of experience in digital marketing, branding, and web development. We
+          believe in building strong partnerships with our clients, understanding their unique goals, and delivering tailored solutions that drive real results.
+          <br /><br />
+          From innovative campaigns to engaging websites, we combine creativity with data-driven strategies to maximize your brand’s online presence. Our commitment to excellence and client success sets us apart as a trusted partner for businesses
+          looking to grow and make an impact online.
+        </p>
+      </div>
+      <div class="flex-1 bg-gray-300 rounded-lg about-us-image-container"><img src="/images/about-us.jpg" alt="About Us Meeting" class="responsive-image" /></div>
+    </section>
+
+    <footer class="bg-gray-300 text-black px-8 py-6 grid grid-cols-1 md:grid-cols-3 text-sm gap-8">
+      <div>
+        <h4 class="font-semibold mb-2">About</h4>
+        <p>
+          VK Designs is your partner in digital growth. We specialize in creative digital marketing strategies that help brands stand out and succeed online. From SEO and social media to branding and web design, our team is dedicated to delivering
+          measurable results for your business.
+        </p>
+      </div>
+      <div id="careers">
+        <h4 class="font-semibold mb-2">Careers</h4>
+        <ul class="list-disc pl-4">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Contact Us</h4>
+        <p>Email:example@mail.com</p>
+        <p>Phone: +91 12345 67890</p>
+      </div>
+    </footer>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
